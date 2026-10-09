@@ -17,3 +17,13 @@ The pilot reel uses a wholly original, algorithmically synthesized soundtrack
 generated with Python's standard library by `make_original_music.py`. No
 operating-system speech voices, licensed songs, third-party recordings or music
 libraries are included in the published media.
+
+## Problem-solution editorial — 10–16 October 2026
+
+Four source-checked, *photo-backed* informational carousel posts were
+generated and scheduled for Somos Camareros (Metricool brand 7316429). See
+`camareros/editorial-real-20261010/SOURCES_AND_RIGHTS.md` for image credits,
+rights scope and links to primary legislation. The editable HTML template and
+`sources.tsv` permit future updates without relying on chat history.
+Source photos must be re-downloaded from Unsplash under the applicable license
+and are intentionally not duplicated in this GitHub repository.
