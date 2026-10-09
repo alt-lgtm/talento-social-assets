@@ -1,0 +1,5 @@
+.DS_Store
+*.log
+**/*-small.png
+**/prisa-[0-9].png
+**/original-soundtrack.wav

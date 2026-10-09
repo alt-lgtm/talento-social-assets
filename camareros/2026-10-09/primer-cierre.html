@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=1080,initial-scale=1">
+<title>Somos Camareros - El cierre</title>
+<style>
+*{box-sizing:border-box}html,body{width:1080px;height:1350px;overflow:hidden;padding:0;margin:0}
+body{font-family:"Arial","Helvetica Neue",sans-serif;color:#13262a}
+.slide{position:relative;width:1080px;height:1350px;padding:78px 82px 85px;display:none;overflow:hidden}
+.slide.active{display:block}
+.dark{background:#0c282e;color:#f9f1df}
+.cream{background:#fbf1de;color:#16343a}
+.orange{background:#f57951;color:#12282e}
+.tag{display:inline-flex;align-items:center;border:2px solid currentColor;border-radius:100px;padding:12px 20px;font-size:24px;font-weight:800;letter-spacing:2px}
+.brand{position:absolute;top:76px;left:80px;font-size:26px;font-weight:900;letter-spacing:-1px;z-index:5}
+.brand .mark{display:inline-flex;background:#ffcb5b;color:#09262c;width:47px;height:47px;align-items:center;justify-content:center;border-radius:50%;font-size:24px;margin-right:13px;vertical-align:middle}
+.no{position:absolute;top:82px;right:84px;font-size:22px;letter-spacing:2px;opacity:.65;font-weight:700}
+.kicker{position:absolute;top:188px;left:83px;font-size:25px;font-weight:800;letter-spacing:4px;text-transform:uppercase}
+.foot{position:absolute;left:83px;bottom:85px;right:83px;display:flex;align-items:center;justify-content:space-between;font-size:24px;font-weight:850;letter-spacing:2px;border-top:2px solid currentColor;padding-top:24px}
+.huge{font-family:"Arial Black","Arial",sans-serif;font-weight:900;letter-spacing:-7px;line-height:.98}
+.head1{position:absolute;left:78px;top:331px;font-size:105px;line-height:1.03}
+.head1 .big{display:block;color:#ffcb5b;font-size:166px;letter-spacing:-9px;line-height:1.04;padding-top:12px}
+.head1 .after{display:block;padding-top:19px}
+.circle{position:absolute;right:-142px;top:520px;width:525px;height:525px;border:14px solid #ffcb5b;border-radius:50%;opacity:.13}
+.circle:before,.circle:after{content:"";position:absolute;left:240px;top:245px;background:#ffcb5b;transform-origin:0 50%}
+.circle:before{width:150px;height:12px;transform:rotate(-78deg)}
+.circle:after{width:125px;height:10px;transform:rotate(25deg)}
+.note{position:absolute;left:82px;top:1015px;font-size:38px;font-weight:800;line-height:1.28;max-width:760px}
+.ink{color:#122a30}.muted{opacity:.76}
+.header2{position:absolute;top:235px;left:78px;font-size:75px;line-height:1.04}
+.header2 strong{color:#f36943}
+.receipt{position:absolute;top:648px;left:96px;right:94px;height:385px;background:#fffefa;border:4px solid #17353b;border-radius:25px;transform:rotate(-2deg);box-shadow:20px 20px 0px #f3be7c}
+.receipt:before{content:"";position:absolute;left:50px;top:58px;width:96px;height:13px;background:#ee9e75;border-radius:10px}
+.quote{font-size:68px;font-family:"Arial Black","Arial",sans-serif;font-weight:900;line-height:1.16;letter-spacing:-3px;position:absolute;top:85px;left:54px;right:52px}
+.sub2{position:absolute;top:1080px;left:80px;right:80px;font-size:33px;font-weight:750}
+.three-top{position:absolute;top:255px;left:78px;font-size:32px;font-weight:850;letter-spacing:2px}
+.three-quote{position:absolute;top:322px;left:78px;font-size:93px;line-height:1.02;max-width:920px}
+.divline{position:absolute;left:78px;top:703px;right:78px;border-top:6px solid #142d33}
+.three-mid{position:absolute;top:755px;left:78px;font-size:32px;font-weight:850;letter-spacing:2px}
+.three-bottom{position:absolute;top:825px;left:78px;font-size:78px;line-height:1.07;max-width:925px}
+.four-big{position:absolute;top:257px;left:78px;font-size:138px;letter-spacing:-7px}
+.four-question{position:absolute;top:472px;left:78px;right:78px;font-family:"Arial Black","Arial",sans-serif;font-weight:900;font-size:67px;line-height:1.16;letter-spacing:-2px}
+.bubble{position:absolute;left:81px;right:80px;top:933px;background:#ffcb5b;color:#102a31;border-radius:30px;padding:39px 49px;font-size:43px;font-weight:900}
+.bubble:after{content:"";position:absolute;bottom:-25px;right:80px;border-left:42px solid transparent;border-right:0px solid transparent;border-top:36px solid #ffcb5b}
+.accents{position:absolute;top:75px;right:75px;opacity:.1;border:3px solid currentColor;width:280px;height:280px;border-radius:50%}
+</style></head>
+<body>
+<section class="slide dark" id="s1">
+ <div class="brand"><span class="mark">SC</span> SOMOS CAMAREROS</div><div class="no">01 / 04</div>
+ <div class="kicker">LA ESCENA DEL TURNO</div><div class="circle"></div>
+ <div class="huge head1">FALTAN <span class="big">5 MINUTOS</span><span class="after">PARA<br>CERRAR.</span></div>
+ <div class="note">Y entonces entra<br>una &uacute;ltima mesa.</div>
+ <div class="foot"><span>VIDA EN HOSTELER&Iacute;A</span><span>DESLIZA &rarr;</span></div>
+</section>
+<section class="slide cream" id="s2">
+ <div class="brand"><span class="mark">SC</span> SOMOS CAMAREROS</div><div class="no">02 / 04</div>
+ <div class="huge header2">LA CAFETERA,<br><strong>LIMPIA.</strong><br>LA CAJA,<br><strong>CERRADA.</strong></div>
+ <div class="receipt"><div class="quote">&laquo;&iquest;NOS PONES<br>UN CAF&Eacute;<br>R&Aacute;PIDO?&raquo;</div></div>
+ <div class="sub2">Ese &laquo;r&aacute;pido&raquo; tiene su propia duraci&oacute;n.</div>
+ <div class="foot"><span>VIDA EN HOSTELER&Iacute;A</span><span>02 / 04</span></div>
+</section>
+<section class="slide orange" id="s3">
+ <div class="brand"><span class="mark">SC</span> SOMOS CAMAREROS</div><div class="no">03 / 04</div>
+ <div class="three-top">POR DENTRO:</div>
+ <div class="huge three-quote">&laquo;PERO SI<br>EST&Aacute;BAMOS<br>CERRANDO...&raquo;</div>
+ <div class="divline"></div><div class="three-mid">POR FUERA:</div>
+ <div class="huge three-bottom">&laquo;&iexcl;BUENAS!<br>&iquest;QU&Eacute; OS<br>PONGO?&raquo;</div>
+ <div class="foot"><span>ENTRE CAMAREROS</span><span>03 / 04</span></div>
+</section>
+<section class="slide cream" id="s4">
+ <div class="brand"><span class="mark">SC</span> SOMOS CAMAREROS</div><div class="no">04 / 04</div><div class="accents"></div>
+ <div class="huge four-big">TU TURNO.</div>
+ <div class="four-question">&iquest;QU&Eacute; FRASE HAS ESCUCHADO JUSTO ANTES DE CERRAR?</div>
+ <div class="bubble">TE LEEMOS EN COMENTARIOS &darr;</div>
+ <div class="foot"><span>UNA COMUNIDAD DE CAMAREROS</span><span>@SOMOSCAMAREROS_ES</span></div>
+</section>
+<script>var n=+(new URLSearchParams(location.search)).get("slide")||1;var e=document.getElementById("s"+n);if(e)e.classList.add("active");</script>
+</body></html>
