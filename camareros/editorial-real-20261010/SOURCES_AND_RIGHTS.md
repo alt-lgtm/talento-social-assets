@@ -53,3 +53,14 @@ quoted as testimonials; media, names, text and personal details not reproduced:
 - Media 1080x1920, 9:16, JPEG, each caption has real actionable steps.
 - 4 editorial posts over a week, not old withdrawn generic posts.
 - No external calls, sponsorships or monetary advertising.
+
+### 2026-10-10 10:30 Madrid — correction for Instagram feed
+
+Initial scheduled JPEG carousels were 1080x1920 (9:16), appropriate for Stories but **not** for feed image carousels in Metricool/Instagram API. Official Metricool feed image requirements are an aspect ratio from 3:4 to 1.91:1: https://help.metricool.com/es/programar-y-publicar-en-instagram-6b6q5 .
+
+Re-rendered all four 4-image carousels from editable source into
+**1080x1440 (3:4)** JPEG at quality 87. No automatic cropping of text;
+reflowed layout using `templates/post-feed.html`. Photo licenses, facts,
+captions and text alternatives are unchanged. Old 9:16 files remain
+on disk/repo for provenance, but must NOT be linked to active scheduled
+Instagram feed posts. The 3:4 images are in `feed-corrected/{topic}/slide-{1..4}.jpg`.
